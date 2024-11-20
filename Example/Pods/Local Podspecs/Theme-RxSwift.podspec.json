@@ -1,0 +1,37 @@
+{
+  "name": "Theme-RxSwift",
+  "version": "1.0.0",
+  "summary": "A short description of Theme-RxSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/galenu/Theme-RxSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "galenu": "250167616@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/galenu/Theme-RxSwift.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "Theme-RxSwift/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "NSObject+Rx": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

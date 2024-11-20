@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'Theme-RxSwift_Example' do
+  pod 'Theme-RxSwift', :path => '../'
+  pod 'ThemeBundle', :path => '../LocalPods/ThemeBundle/'
+  
+  pod 'R.swift', '~> 7.3.2'
+
+  target 'Theme-RxSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

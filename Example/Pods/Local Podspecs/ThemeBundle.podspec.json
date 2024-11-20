@@ -1,0 +1,34 @@
+{
+  "name": "ThemeBundle",
+  "version": "1.0.0",
+  "summary": "A short description of ThemeBundle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/galenu/ThemeBundle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "galenu": "250167616@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/galenu/ThemeBundle.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "ThemeBundle/Classes/**/*",
+  "resource_bundles": {
+    "ThemeDarkBundle": [
+      "ThemeBundle/Assets/ThemeDarkBundle/**/*.*"
+    ],
+    "ThemeRedBundle": [
+      "ThemeBundle/Assets/ThemeRedBundle/**/*.*"
+    ]
+  },
+  "swift_version": "5.0"
+}
