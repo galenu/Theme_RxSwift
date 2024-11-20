@@ -20,6 +20,30 @@ it, simply add the following line to your Podfile:
 pod 'Theme-RxSwift'
 ```
 
+```
+view.theme.backgroundColor = .color(\.bgPage)
+        
+view.theme.changed = .theme({
+
+            print("主题改变: \(HMTheme.shared.themeType)")
+            
+            if let lottie_wifi_connect = URL.url(forResource: "lottie_wifi_connect.json") {
+                print("lottie_wifi_connect: \(lottie_wifi_connect.absoluteString)")
+            }
+            
+            if let video_welcome_placeholder = URL.url(forResource: "video_welcome_placeholder.mp4") {
+                print("video_welcome_placeholder: \(video_welcome_placeholder.absoluteString)")
+            }
+        })
+
+btn.theme.backgroundColor = .color(\.buttonNormalBg)
+btn.theme.setTitleColor(.color(\.textMinor), for: .normal)
+
+imageView.theme.image = .image(named: "base/logo")
+        
+label.theme.textColor = .color(\.textMajor)
+```
+
 ## Author
 
 galenu, 250167616@qq.com
